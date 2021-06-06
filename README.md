@@ -25,6 +25,9 @@
 > Amazon AWS EC2 사용시 로케일 오류가 잦습니다.
 > http://egloos.zum.com/killins/v/3014274 을 참고해주세요.
 
+> telegram.ext 모듈의 버전이 11이어야 정상적으로 실행이 가능합니다.
+> pip3 install python-telegram-bot==11 를 사용하여 11버전으로 설치 가능합니다.
+
 ### 1. 기초 패키지 설치
 <pre> sudo apt-get update
 sudo apt-get install python3 python3-pip python3-venv</pre>
